@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "test": "deno test --allow-read supabase/functions/price-bot/",
+    "check": "deno check supabase/functions/price-bot/index.ts",
+    "fmt": "deno fmt supabase/functions/price-bot/"
+  },
+  "fmt": {
+    "lineWidth": 110
+  }
+}
